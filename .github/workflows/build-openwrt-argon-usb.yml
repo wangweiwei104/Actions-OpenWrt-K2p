@@ -15,7 +15,7 @@ on:
     branches:
       - master
     paths:
-      - '.config4argon_usb'
+      - '.config4argonUSB'
 #  schedule:
 #    - cron: 0 8 * * 5
   watch:
@@ -24,7 +24,7 @@ on:
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  CONFIG_FILE: .config4argon_usb
+  CONFIG_FILE: .config4argonUSB
   DIY_SH: diy.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: false
